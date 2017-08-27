@@ -1,0 +1,24 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "A simple and lightweight node api",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --harmony src/cli.js",
+    "test": "eslint ."
+  },
+  "author": "d.c.pene@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-boom": "^1.0.0",
+    "express-validation": "^1.0.1",
+    "joi": "^9.0.4",
+    "yargs": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.6.0",
+    "nodemon": "^1.10.2"
+  }
+}
