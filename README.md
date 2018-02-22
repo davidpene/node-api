@@ -27,4 +27,3 @@ npm start
 # Starts a stin on a specified port (e.g. 4001). Runs on http://localhost:4001
 npm start -- --port 4001
 ```
-### Calling the api
